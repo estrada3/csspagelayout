@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <title>Lesson 3 | Forms</title>
+  </head>
+  <body>
+      <!-- two ways to make a container in bootstrap: container or container-fluid -->
+    <div class="container">
+        
+        <h1>Forms</h1>
+        <!-- you cannot submit information on a live server -->
+        <form action="welcome.html" method="post" autocomplete="" onsubmit="">
+            <!-- for="" and name="" have to be the same -->
+            <label for="name">Name</label> <br>
+            <input type="text" name="name" id="n1"> <br>
+            
+            <!-- value="" shows up on the button -->
+            <label for=""></label>
+            <input type="submit" value="Send"><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="pass" placeholder="Enter Your Password"><br>
+
+            <label for="date">DOB</label><br>
+            <input type="date" name="date" id="dat">
+
+            <label for="phone">Phone</label><br>
+            <input type="text" name="date" id="p"><br>
+
+            <label for="gender">Gender</label><br>
+            Male: <input type="radio" name="gender" id="">
+            Female: <input type="radio" name="gender" id=""><br>
+
+            <label for="image">Upload an image</label><br>
+            <input type="dile" name="image" id=""><br>
+
+            <label for="city">Select Your City</label><br>
+            <section>
+                <option value="">Bellingham</option>
+                <option value="">Seattle</option>
+                <option value="">Tacoma</option>
+            </section><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" id="" cols="30" rows="5"></textarea><br>
+            
+
+            <input class="btn btn-primary" type="submit" value="Send">
+        </form>
+
+    
+
+    <hr>
+    <h3>Audio</h3>
+    <!-- put it inside source tag if you dont trust your source -->
+    <audio>
+        <source src="media/audio.mp3.crdownload" type="audio/mp3">
+    </audio>
+
+    <style>
+        .von{
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            
+
+        }
+    </style>
+
+    <hr>
+    <h3>Video</h3>
+    <video autoplay loop plays-inline class="von">
+        <source src="media/video.mp4.crdownload" type="video/mp4">
+    </video>
+
+    </div>
+
+    <div style="margin-top: 400px"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
