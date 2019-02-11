@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "Lesson 5-CSS Border Boxes"
+		},
+		{
+			"path": "Lesson 7/images"
+		},
+		{
+			"path": "Lesson 7/node_modules"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Lesson 5-CSS Border Boxes",
+		"git.ignoreLimitWarning": true
+	}
+}
